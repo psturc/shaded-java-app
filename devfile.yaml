@@ -1,0 +1,18 @@
+
+schemaVersion: 2.2.0
+metadata:
+  name: shaded-java-app
+  version: 1.1.0
+  provider: Red Hat
+  supportUrl: https://github.com/devfile-samples/devfile-support#support-information
+  website: https://quarkus.io
+  displayName: Shaded java app
+  description: Shaded java app
+  tags: ["Java", "Maven"]
+  projectType: "maven"
+  language: "java"
+  attributes:
+    alpha.dockerimage-port: 8081
+parent:
+  id: java-maven
+  registryUrl: "https://registry.devfile.io"
